@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Yrobot's robot</title>
+    <style type="text/css">
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        #container {
+            display: inline-block;
+        }
+
+        #ELEVloader {
+            display: none;
+        }
+    </style>
+</head>
+
+<body onload="main()">
+    <canvas id="ELEVloader">您的浏览器不支持canvas，无法显示webGL模型</canvas>
+    <div id="container"></div>
+    <script src="three.js"></script>
+    <script src="js/Detector.js"></script>
+    <script src="js/stats.min.js"></script>
+    <script src="controls/OrbitControls.js"></script>
+    <script src="drawMountain.js"></script>
+</body>
+
+</html>
