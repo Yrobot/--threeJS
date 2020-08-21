@@ -1,11 +1,11 @@
 # 3D-mountain  
 利用threJS将高程图和纹理图转换成三维模型
 
-高程图&纹理图    
+### 高程图&纹理图    
 ![](http://ss1.sinaimg.cn/large/d586f89bly1g6ofwusggzj211p0bctqu.jpg)    
 
 
-DEMO：  
+### DEMO：  
 点击下方链接进行预览   
 使用鼠标进行交互（左击，拖拽，滚轮）  
 查看demo时请等待2-5s，canvas绘制需要一定时间  
